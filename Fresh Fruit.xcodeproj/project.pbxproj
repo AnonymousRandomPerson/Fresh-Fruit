@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3921598C1B602C3F0050DCAC /* ReviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3921598B1B602C3F0050DCAC /* ReviewCell.m */; };
+		393254321B5F48080012CE1E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393254311B5F48080012CE1E /* SearchViewController.m */; };
+		393A19B91B5FFFFB00F00D88 /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393A19B81B5FFFFB00F00D88 /* RatingViewController.m */; };
+		393A19BB1B6007BF00F00D88 /* AdminHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393A19BA1B6007BF00F00D88 /* AdminHomeViewController.m */; };
+		393A19BF1B60082200F00D88 /* AdminProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393A19BE1B60082200F00D88 /* AdminProfileViewController.m */; };
+		393A19C21B600BA700F00D88 /* StarEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 393A19C01B600BA700F00D88 /* StarEmpty.png */; };
+		393A19C31B600BA700F00D88 /* StarFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 393A19C11B600BA700F00D88 /* StarFilled.png */; };
 		39AF4B771B5C63E300A8A517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4B761B5C63E300A8A517 /* main.m */; };
 		39AF4B7A1B5C63E300A8A517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4B791B5C63E300A8A517 /* AppDelegate.m */; };
 		39AF4B7D1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4B7B1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodeld */; };
-		39AF4B801B5C63E300A8A517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4B7F1B5C63E300A8A517 /* ViewController.m */; };
 		39AF4B831B5C63E300A8A517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AF4B811B5C63E300A8A517 /* Main.storyboard */; };
 		39AF4B851B5C63E300A8A517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AF4B841B5C63E300A8A517 /* Images.xcassets */; };
 		39AF4B881B5C63E300A8A517 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AF4B861B5C63E300A8A517 /* LaunchScreen.xib */; };
 		39AF4B941B5C63E300A8A517 /* Fresh_FruitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4B931B5C63E300A8A517 /* Fresh_FruitTests.m */; };
+		39AF4BA21B5C8D6C00A8A517 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BA11B5C8D6C00A8A517 /* LoginViewController.m */; };
+		39AF4BA61B5C8E6B00A8A517 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BA51B5C8E6B00A8A517 /* UserManager.m */; };
+		39AF4BA81B5C973500A8A517 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BA71B5C973500A8A517 /* User.m */; };
+		39AF4BAC1B5C9A8500A8A517 /* AdminUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BAB1B5C9A8500A8A517 /* AdminUser.m */; };
+		39AF4BB41B5CB06A00A8A517 /* StudentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BB31B5CB06A00A8A517 /* StudentUser.m */; };
+		39AF4BB71B5D59EA00A8A517 /* Major.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BB61B5D59EA00A8A517 /* Major.m */; };
+		39AF4BB91B5D609500A8A517 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BB81B5D609500A8A517 /* Movie.m */; };
+		39AF4BBF1B5D7E9100A8A517 /* MovieLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BBE1B5D7E9000A8A517 /* MovieLogic.m */; };
+		39AF4BC21B5DAD6B00A8A517 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AF4BC11B5DAD6B00A8A517 /* libsqlite3.dylib */; };
+		39AF4BC41B5DAEA600A8A517 /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BC31B5DAEA600A8A517 /* Review.m */; };
+		39AF4BC71B5DB17000A8A517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BC61B5DB17000A8A517 /* ViewController.m */; };
+		39AF4BCA1B5DBFB200A8A517 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF4BC91B5DBFB200A8A517 /* RegisterViewController.m */; };
+		39F85C0A1B5ED00400CA852B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F85C091B5ED00400CA852B /* ProfileViewController.m */; };
+		39F85C0E1B5ED61500CA852B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F85C0D1B5ED61500CA852B /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +48,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3921598A1B602C350050DCAC /* ReviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewCell.h; sourceTree = "<group>"; };
+		3921598B1B602C3F0050DCAC /* ReviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewCell.m; sourceTree = "<group>"; };
+		393254311B5F48080012CE1E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		393254331B5F48110012CE1E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		393A19B71B5FFFEE00F00D88 /* RatingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingViewController.h; sourceTree = "<group>"; };
+		393A19B81B5FFFFB00F00D88 /* RatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
+		393A19BA1B6007BF00F00D88 /* AdminHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminHomeViewController.m; sourceTree = "<group>"; };
+		393A19BC1B6007CA00F00D88 /* AdminHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminHomeViewController.h; sourceTree = "<group>"; };
+		393A19BD1B60080E00F00D88 /* AdminProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminProfileViewController.h; sourceTree = "<group>"; };
+		393A19BE1B60082200F00D88 /* AdminProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminProfileViewController.m; sourceTree = "<group>"; };
+		393A19C01B600BA700F00D88 /* StarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarEmpty.png; sourceTree = "<group>"; };
+		393A19C11B600BA700F00D88 /* StarFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarFilled.png; sourceTree = "<group>"; };
 		39AF4B711B5C63E300A8A517 /* Fresh Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresh Fruit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AF4B751B5C63E300A8A517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AF4B761B5C63E300A8A517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39AF4B781B5C63E300A8A517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39AF4B791B5C63E300A8A517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		39AF4B7C1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fresh_Fruit.xcdatamodel; sourceTree = "<group>"; };
-		39AF4B7E1B5C63E300A8A517 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39AF4B7F1B5C63E300A8A517 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		39AF4B821B5C63E300A8A517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39AF4B841B5C63E300A8A517 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39AF4B871B5C63E300A8A517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		39AF4B8D1B5C63E300A8A517 /* Fresh FruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fresh FruitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AF4B921B5C63E300A8A517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AF4B931B5C63E300A8A517 /* Fresh_FruitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fresh_FruitTests.m; sourceTree = "<group>"; };
+		39AF4BA11B5C8D6C00A8A517 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		39AF4BA31B5C8D8C00A8A517 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		39AF4BA41B5C8E5200A8A517 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		39AF4BA51B5C8E6B00A8A517 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		39AF4BA71B5C973500A8A517 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		39AF4BA91B5C973E00A8A517 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		39AF4BAA1B5C9A6F00A8A517 /* AdminUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminUser.h; sourceTree = "<group>"; };
+		39AF4BAB1B5C9A8500A8A517 /* AdminUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminUser.m; sourceTree = "<group>"; };
+		39AF4BAF1B5C9A9D00A8A517 /* StudentUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentUser.h; sourceTree = "<group>"; };
+		39AF4BB31B5CB06A00A8A517 /* StudentUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUser.m; sourceTree = "<group>"; };
+		39AF4BB51B5D59E100A8A517 /* Major.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Major.h; sourceTree = "<group>"; };
+		39AF4BB61B5D59EA00A8A517 /* Major.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Major.m; sourceTree = "<group>"; };
+		39AF4BB81B5D609500A8A517 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		39AF4BBA1B5D609E00A8A517 /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		39AF4BBB1B5D654200A8A517 /* Review.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Review.h; sourceTree = "<group>"; };
+		39AF4BBE1B5D7E9000A8A517 /* MovieLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieLogic.m; sourceTree = "<group>"; };
+		39AF4BC01B5D7E9900A8A517 /* MovieLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieLogic.h; sourceTree = "<group>"; };
+		39AF4BC11B5DAD6B00A8A517 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		39AF4BC31B5DAEA600A8A517 /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
+		39AF4BC51B5DB17000A8A517 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39AF4BC61B5DB17000A8A517 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39AF4BC91B5DBFB200A8A517 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		39AF4BCB1B5DBFBC00A8A517 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		39F85C091B5ED00400CA852B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		39F85C0B1B5ED01300CA852B /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		39F85C0C1B5ED60900CA852B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		39F85C0D1B5ED61500CA852B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AF4BC21B5DAD6B00A8A517 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,7 @@
 		39AF4B681B5C63E300A8A517 = {
 			isa = PBXGroup;
 			children = (
+				39AF4BC11B5DAD6B00A8A517 /* libsqlite3.dylib */,
 				39AF4B731B5C63E300A8A517 /* Fresh Fruit */,
 				39AF4B901B5C63E300A8A517 /* Fresh FruitTests */,
 				39AF4B721B5C63E300A8A517 /* Products */,
@@ -83,14 +142,50 @@
 		39AF4B731B5C63E300A8A517 /* Fresh Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				39AF4B811B5C63E300A8A517 /* Main.storyboard */,
 				39AF4B781B5C63E300A8A517 /* AppDelegate.h */,
 				39AF4B791B5C63E300A8A517 /* AppDelegate.m */,
-				39AF4B7E1B5C63E300A8A517 /* ViewController.h */,
-				39AF4B7F1B5C63E300A8A517 /* ViewController.m */,
-				39AF4B811B5C63E300A8A517 /* Main.storyboard */,
+				39AF4BC51B5DB17000A8A517 /* ViewController.h */,
+				39AF4BC61B5DB17000A8A517 /* ViewController.m */,
+				393A19BC1B6007CA00F00D88 /* AdminHomeViewController.h */,
+				393A19BA1B6007BF00F00D88 /* AdminHomeViewController.m */,
+				393A19BD1B60080E00F00D88 /* AdminProfileViewController.h */,
+				393A19BE1B60082200F00D88 /* AdminProfileViewController.m */,
+				39F85C0C1B5ED60900CA852B /* HomeViewController.h */,
+				39F85C0D1B5ED61500CA852B /* HomeViewController.m */,
+				39AF4BA31B5C8D8C00A8A517 /* LoginViewController.h */,
+				39AF4BA11B5C8D6C00A8A517 /* LoginViewController.m */,
+				39F85C0B1B5ED01300CA852B /* ProfileViewController.h */,
+				39F85C091B5ED00400CA852B /* ProfileViewController.m */,
+				393A19B71B5FFFEE00F00D88 /* RatingViewController.h */,
+				393A19B81B5FFFFB00F00D88 /* RatingViewController.m */,
+				3921598A1B602C350050DCAC /* ReviewCell.h */,
+				3921598B1B602C3F0050DCAC /* ReviewCell.m */,
+				39AF4BCB1B5DBFBC00A8A517 /* RegisterViewController.h */,
+				39AF4BC91B5DBFB200A8A517 /* RegisterViewController.m */,
+				393254331B5F48110012CE1E /* SearchViewController.h */,
+				393254311B5F48080012CE1E /* SearchViewController.m */,
+				39AF4BAA1B5C9A6F00A8A517 /* AdminUser.h */,
+				39AF4BAB1B5C9A8500A8A517 /* AdminUser.m */,
+				39AF4BB51B5D59E100A8A517 /* Major.h */,
+				39AF4BB61B5D59EA00A8A517 /* Major.m */,
+				39AF4BBA1B5D609E00A8A517 /* Movie.h */,
+				39AF4BB81B5D609500A8A517 /* Movie.m */,
+				39AF4BC01B5D7E9900A8A517 /* MovieLogic.h */,
+				39AF4BBE1B5D7E9000A8A517 /* MovieLogic.m */,
+				39AF4BBB1B5D654200A8A517 /* Review.h */,
+				39AF4BC31B5DAEA600A8A517 /* Review.m */,
+				39AF4BAF1B5C9A9D00A8A517 /* StudentUser.h */,
+				39AF4BB31B5CB06A00A8A517 /* StudentUser.m */,
+				39AF4BA91B5C973E00A8A517 /* User.h */,
+				39AF4BA71B5C973500A8A517 /* User.m */,
+				39AF4BA41B5C8E5200A8A517 /* UserManager.h */,
+				39AF4BA51B5C8E6B00A8A517 /* UserManager.m */,
+				39AF4B7B1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodeld */,
 				39AF4B841B5C63E300A8A517 /* Images.xcassets */,
 				39AF4B861B5C63E300A8A517 /* LaunchScreen.xib */,
-				39AF4B7B1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodeld */,
+				393A19C01B600BA700F00D88 /* StarEmpty.png */,
+				393A19C11B600BA700F00D88 /* StarFilled.png */,
 				39AF4B741B5C63E300A8A517 /* Supporting Files */,
 			);
 			path = "Fresh Fruit";
@@ -203,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39AF4B831B5C63E300A8A517 /* Main.storyboard in Resources */,
+				393A19C21B600BA700F00D88 /* StarEmpty.png in Resources */,
 				39AF4B881B5C63E300A8A517 /* LaunchScreen.xib in Resources */,
 				39AF4B851B5C63E300A8A517 /* Images.xcassets in Resources */,
+				393A19C31B600BA700F00D88 /* StarFilled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +319,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393A19BF1B60082200F00D88 /* AdminProfileViewController.m in Sources */,
 				39AF4B7D1B5C63E300A8A517 /* Fresh_Fruit.xcdatamodeld in Sources */,
+				39AF4BBF1B5D7E9100A8A517 /* MovieLogic.m in Sources */,
+				39AF4BA81B5C973500A8A517 /* User.m in Sources */,
+				39AF4BB91B5D609500A8A517 /* Movie.m in Sources */,
+				39F85C0A1B5ED00400CA852B /* ProfileViewController.m in Sources */,
+				393254321B5F48080012CE1E /* SearchViewController.m in Sources */,
 				39AF4B7A1B5C63E300A8A517 /* AppDelegate.m in Sources */,
-				39AF4B801B5C63E300A8A517 /* ViewController.m in Sources */,
+				39AF4BC41B5DAEA600A8A517 /* Review.m in Sources */,
+				39F85C0E1B5ED61500CA852B /* HomeViewController.m in Sources */,
+				39AF4BC71B5DB17000A8A517 /* ViewController.m in Sources */,
 				39AF4B771B5C63E300A8A517 /* main.m in Sources */,
+				39AF4BA61B5C8E6B00A8A517 /* UserManager.m in Sources */,
+				39AF4BAC1B5C9A8500A8A517 /* AdminUser.m in Sources */,
+				393A19BB1B6007BF00F00D88 /* AdminHomeViewController.m in Sources */,
+				39AF4BB71B5D59EA00A8A517 /* Major.m in Sources */,
+				39AF4BCA1B5DBFB200A8A517 /* RegisterViewController.m in Sources */,
+				393A19B91B5FFFFB00F00D88 /* RatingViewController.m in Sources */,
+				39AF4BB41B5CB06A00A8A517 /* StudentUser.m in Sources */,
+				39AF4BA21B5C8D6C00A8A517 /* LoginViewController.m in Sources */,
+				3921598C1B602C3F0050DCAC /* ReviewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +534,7 @@
 				39AF4B991B5C63E300A8A517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39AF4B9A1B5C63E300A8A517 /* Build configuration list for PBXNativeTarget "Fresh FruitTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +543,7 @@
 				39AF4B9C1B5C63E300A8A517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

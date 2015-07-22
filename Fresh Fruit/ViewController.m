@@ -14,14 +14,68 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.userManager = [UserManager getInstance];
 }
 
-- (void)didReceiveMemoryWarning {
+-(void)displayError:(NSString*)message
+{
+    UIAlertController *error = [UIAlertController alertControllerWithTitle:@"Error"
+                                                                   message:message
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Okay", @"OK action")
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:nil];
+    [error addAction:defaultAction];
+    [self presentViewController:error animated:YES completion:nil];
+}
+
+-(void)displaySuccess:(NSString*)message :(NSString*)segueID
+{
+    UIAlertController *success = [UIAlertController alertControllerWithTitle:@"Success"
+                                                                     message:message
+                                                              preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Okay", @"OK action")
+                                                       style:UIAlertActionStyleDefault
+                                                     handler:^(UIAlertAction *action)
+                               {
+                                   [self performSegueWithIdentifier:segueID sender:nil];
+                               }];
+    [success addAction:okAction];
+    [self presentViewController:success animated:YES completion:nil];
+}
+
+-(IBAction)logout:(id)sender
+{
+    self.userManager.currentUser = nil;
+}
+
+-(bool)validateUsername:(NSString*)username
+{
+    if ([username isEqualToString:@""])
+    {
+        [self displayError:@"No username entered."];
+        return false;
+    }
+    else if ([self.userManager find:username])
+    {
+        [self displayError:@"Username already exists."];
+        return false;
+    }
+    return true;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return NO;
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
