@@ -1,0 +1,1 @@
+create table USERS (USERID INTEGER primary key AUTOINCREMENT not null, USERNAME VARCHAR(100) not null default '', PASSWORD VARCHAR(100) not null default '', EMAIL VARCHAR(200) not null default '', MAJOR VARCHAR(100) not null default 'Un', PREFERENCES VARCHAR(10000) not null default '', INTEREST VARCHAR(10000) not null default '', STATUS VARCHAR(100) default 'Normal');

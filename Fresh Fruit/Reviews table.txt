@@ -1,0 +1,1 @@
+create table REVIEWS(MOVIEID VARCHAR(100) not null default '', STARRATING INTEGER not null default 0, TEXTREVIEW VARCHAR(10000) not null default '', USERID INTEGER not null default 0, REVIEWMAJOR VARCHAR(100) not null default '');

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[UserManager updateSQL:]:UserManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[User setStatus:]:User.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[StudentUser setMajor:]:StudentUser.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
